@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: postgres_googlemaps_app_development
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: postgres_googlemaps_app_test
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: postgres_googlemaps_app
+  pool: 5
